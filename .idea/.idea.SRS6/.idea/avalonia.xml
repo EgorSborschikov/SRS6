@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="App.axaml" value="SRS6.csproj" />
+        <entry key="MainWindow.axaml" value="SRS6.csproj" />
+        <entry key="View/Pages/Login/LoginPage.axaml" value="SRS6.csproj" />
+        <entry key="View/Pages/Register/RegisterPage.axaml" value="SRS6.csproj" />
+        <entry key="View/Windows/Admin/AdminWindow.axaml" value="SRS6.csproj" />
+        <entry key="View/Windows/Main/MainWindow.axaml" value="SRS6.csproj" />
+        <entry key="View/Windows/Tutor/TutorWindow.axaml" value="SRS6.csproj" />
+        <entry key="ViewModels/Pages/TutorWindow.axaml" value="SRS6.csproj" />
+        <entry key="ViewModels/Windows/Admin/AdminWindow.axaml" value="SRS6.csproj" />
+        <entry key="ViewModels/Windows/Main/MainWindow.axaml" value="SRS6.csproj" />
+      </map>
+    </option>
+    <option name="workingDirectorySpecification" value="SolutionDirectory" />
+  </component>
+</project>

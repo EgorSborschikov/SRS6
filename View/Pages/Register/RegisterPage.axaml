@@ -1,0 +1,34 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:viewModels="clr-namespace:SRS6.ViewModels"
+             x:Class="SRS6.View.Pages.Register.RegisterPage"
+             x:Name="LoginViewControl"
+             x:DataType="viewModels:RegisterPageViewModel">
+
+    <StackPanel>
+        <TextBlock Text="Register" FontSize="20" Margin="10"/>
+        
+        <TextBox 
+            Text="{Binding Username}" 
+            Watermark="Username" Margin="10"/>
+        <TextBox 
+            Text="{Binding Password}" 
+            Watermark="Password" Margin="10"/>
+        <ComboBox 
+            SelectedItem="{Binding Role}" 
+            Margin="10">
+            
+            <ComboBoxItem Content="Admin"/>
+            <ComboBoxItem Content="Teacher"/>
+            
+        </ComboBox>
+        <Button 
+            Name="RegisterBtn" 
+            Content="Register" 
+            Click="RegisterBtn_Click" 
+            Margin="10"/>
+        <TextBlock 
+            Text="{Binding ErrorMessage}" 
+            Foreground="Red" Margin="10"/>
+    </StackPanel>
+</UserControl>
