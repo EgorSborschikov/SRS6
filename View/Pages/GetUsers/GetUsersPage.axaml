@@ -1,0 +1,24 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:SRS6.ViewModels"
+             xmlns:models="clr-namespace:SRS6.Models"
+             mc:Ignorable="d"
+             x:Class="SRS6.View.Pages.GetUsers.GetUsersPage"
+             x:DataType="viewModels:GetUsersPageViewModel">
+    <StackPanel>
+        <TextBlock 
+            Text="Users List" 
+            FontSize="20" 
+            Margin="10"/>
+
+        <ListBox ItemsSource="{Binding Users}" Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding Username}"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </StackPanel>
+</UserControl>

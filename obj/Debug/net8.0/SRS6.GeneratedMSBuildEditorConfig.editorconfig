@@ -20,6 +20,12 @@ build_property.EnableGeneratedComInterfaceComImportInterop =
 [/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
+[/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/View/Pages/AddUsers/AddUsersPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/View/Pages/GetUsers/GetUsersPage.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
 [/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/View/Pages/Login/LoginPage.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 

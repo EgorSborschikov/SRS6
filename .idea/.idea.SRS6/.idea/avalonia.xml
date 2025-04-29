@@ -5,6 +5,9 @@
       <map>
         <entry key="App.axaml" value="SRS6.csproj" />
         <entry key="MainWindow.axaml" value="SRS6.csproj" />
+        <entry key="View/Pages/AddUsers/AddUsersPage.axaml" value="SRS6.csproj" />
+        <entry key="View/Pages/GetUsers/GetUsers.axaml" value="SRS6.csproj" />
+        <entry key="View/Pages/GetUsers/GetUsersPage.axaml" value="SRS6.csproj" />
         <entry key="View/Pages/Login/LoginPage.axaml" value="SRS6.csproj" />
         <entry key="View/Pages/Register/RegisterPage.axaml" value="SRS6.csproj" />
         <entry key="View/Windows/Admin/AdminWindow.axaml" value="SRS6.csproj" />

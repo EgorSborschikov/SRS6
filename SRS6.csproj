@@ -31,6 +31,9 @@
       <Compile Update="ViewModels\Windows\Tutor\TutorWindow.axaml.cs">
         <SubType>Code</SubType>
       </Compile>
+      <Compile Update="View\Pages\GetUsers\GetUsersPage.axaml.cs">
+        <DependentUpon>GetUsersPage.axaml</DependentUpon>
+      </Compile>
     </ItemGroup>
 
     <ItemGroup>

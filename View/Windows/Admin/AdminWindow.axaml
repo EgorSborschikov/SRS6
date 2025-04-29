@@ -5,5 +5,34 @@
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
         x:Class="SRS6.View.Windows.Admin.AdminWindow"
         Title="SRS6">
-    Welcome to Avalonia!
+    <StackPanel
+        Orientation="Vertical" 
+        VerticalAlignment="Center" 
+        HorizontalAlignment="Center" 
+        Spacing="10">
+        
+        <ContentControl Name="PageContent"/>
+        
+        <StackPanel 
+            Orientation="Horizontal" 
+            VerticalAlignment="Bottom" 
+            HorizontalAlignment="Center" 
+            Spacing="20">
+            
+            <Button 
+                Name="OpenGetUsersPageBtn" 
+                Content="Список пользователей" 
+                HorizontalContentAlignment="Center" 
+                VerticalContentAlignment="Center" 
+                Click="OpenGetUsersPageBtn_OnClick"/>
+            
+            <Button 
+                Name="OpenAddUsersPageBtn"
+                Content="Добавить пользователя"
+                HorizontalContentAlignment="Center"
+                VerticalContentAlignment="Center"
+                Click="OpenAddUsersPageBtn_OnClick"/>
+        </StackPanel>
+        
+    </StackPanel>
 </Window>

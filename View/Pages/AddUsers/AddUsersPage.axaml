@@ -1,0 +1,37 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:viewModels="clr-namespace:SRS6.ViewModels"
+             mc:Ignorable="d"
+             x:Class="SRS6.View.Pages.AddUsers.AddUsersPage"
+             x:DataType="viewModels:AddUsersPageViewModel">
+    
+    <StackPanel>
+        <TextBlock Text="Add New User" FontSize="20" Margin="10"/>
+
+        <TextBox
+            Text="{Binding Username}"
+            Watermark="Username" Margin="10"/>
+        <TextBox
+            Text="{Binding Password}"
+            Watermark="Password" Margin="10"/>
+        <ComboBox
+            ItemsSource="{Binding RolesList}"
+            SelectedValue="{Binding Role}"
+            Margin="10">
+            
+            <ComboBoxItem Content="Администратор"/>
+            <ComboBoxItem Content="Преподаватель"/>
+            
+        </ComboBox>
+        <Button
+            Name="AddNewUserBtn"
+            Content="Add User"
+            Click="AddNewUserBtn_Click"
+            Margin="10"/>
+        <TextBlock
+            Text="{Binding ErrorMessage}"
+            Foreground="Red" Margin="10"/>
+    </StackPanel>
+</UserControl>

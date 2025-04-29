@@ -51,7 +51,7 @@ public class UserService
         return user;
     }
 
-    public IEnumerable<User> GetUsers()
+    public IEnumerable<User> GetAllUsers()
     {
         return _databaseService.GetAllUsers();
     }
