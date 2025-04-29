@@ -10,7 +10,7 @@ public partial class RegisterPage : UserControl
     public RegisterPage()
     {
         InitializeComponent();
-        DataContext = new RegisterPageViewModel(new UserService(new DatabaseService("")));
+        DataContext = new RegisterPageViewModel(new UserService(new DatabaseService()));
     }
 
     private void RegisterBtn_Click(object? sender, RoutedEventArgs e)

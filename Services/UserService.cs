@@ -19,9 +19,9 @@ public class UserService
 
     public void RegisterUser(string username, string password, string role)
     {
-        if (string.IsNullOrWhiteSpace(username) 
-            || string.IsNullOrWhiteSpace(password) 
-            || string.IsNullOrWhiteSpace(role))
+        if (string.IsNullOrEmpty(username) 
+            || string.IsNullOrEmpty(password) 
+            || string.IsNullOrEmpty(role))
         {
             throw new ArgumentException("All fields are required");
         }

@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using System.Data.SQLite;
+using System.IO;
 using Dapper;
 using SRS6.Models;
 
@@ -13,11 +15,32 @@ public class DatabaseService
 {
     private readonly SQLiteConnection _connection;
 
-    public DatabaseService(string dbPath)
+    public DatabaseService()
     {
+        string databaseDir = "Database";
+        if (!Directory.Exists(databaseDir))
+        {
+            Directory.CreateDirectory(databaseDir);
+        }
+        else
+        {
+            Console.WriteLine("Database directory already exists");
+        }
+        
+        string dbPath = Path.Combine(databaseDir, "SchoolInfSys.db");
+        if (!File.Exists(dbPath))
+        {
+            Console.WriteLine("Database file not found or create in future");
+        }
+        else
+        {
+            Console.WriteLine("Database file is exists");
+        }
+        
         _connection = new SQLiteConnection($"Data source = {dbPath}: Version=3;");
         _connection.Open();
         CreateTables();
+        Console.WriteLine("Database connected successfully");
     }
 
     public void CreateTables()

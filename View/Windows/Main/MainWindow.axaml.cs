@@ -1,5 +1,9 @@
 using Avalonia.Controls;
 using Avalonia.Interactivity;
+using SRS6.Services;
+using SRS6.View.Pages.Login;
+using SRS6.View.Pages.Register;
+using SRS6.ViewModels;
 
 namespace SRS6.View.Windows.Main;
 
@@ -16,11 +20,19 @@ public partial class MainWindow : Window
 
     private void OpenRegisterPageBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        throw new System.NotImplementedException();
+        var registerPage = new RegisterPage{
+            DataContext = new RegisterPageViewModel(new UserService(new DatabaseService()))
+        };
+        PageContent.Content = registerPage;
     }
 
     private void OpenLoginPageBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-        throw new System.NotImplementedException();
+        var loginPage = new LoginPage
+        {
+            DataContext = new LoginPageViewModel(new UserService(new DatabaseService()))
+        };
+        // Устанавливаем содержимое PageContent
+        PageContent.Content = loginPage;
     }
 }

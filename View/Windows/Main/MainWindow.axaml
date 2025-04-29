@@ -15,7 +15,7 @@
         
         <StackPanel 
             Orientation="Horizontal" 
-            VerticalAlignment="Center" 
+            VerticalAlignment="Bottom" 
             HorizontalAlignment="Center" 
             Spacing="20">
             

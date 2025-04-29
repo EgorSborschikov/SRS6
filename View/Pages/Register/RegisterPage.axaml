@@ -15,13 +15,10 @@
             Text="{Binding Password}" 
             Watermark="Password" Margin="10"/>
         <ComboBox 
-            SelectedItem="{Binding Role}" 
-            Margin="10">
-            
-            <ComboBoxItem Content="Admin"/>
-            <ComboBoxItem Content="Teacher"/>
-            
-        </ComboBox>
+            ItemsSource="{Binding RolesList}"
+            SelectedValue="{Binding Role}" 
+            Margin="10"/>
+        
         <Button 
             Name="RegisterBtn" 
             Content="Register" 

@@ -10,7 +10,7 @@ public partial class LoginPage : UserControl
     public LoginPage()
     {
         InitializeComponent();
-        DataContext = new LoginPageViewModel(new UserService(new DatabaseService("")));
+        DataContext = new LoginPageViewModel(new UserService(new DatabaseService()));
     }
 
     private void LoginBtn_Click(object? sender, RoutedEventArgs e)

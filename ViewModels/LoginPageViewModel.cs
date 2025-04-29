@@ -26,18 +26,27 @@ public class LoginPageViewModel
     {
         try
         {
+            Console.WriteLine("Authenticating started...");
+            
             var user = _userService.LoginUser(Username, Password);
+            Console.WriteLine("Logged in successfully!");
 
-            var adminWindow = new AdminWindow();
-            var tutorWindow = new TutorWindow();
-
-            /*
-             * if(user.Role == "Admin"){
-             *      adminWindow.Show();
-             * } else {
-             *      tutorWindow.Show();
-             * }
-             */
+            if (user.Role == "Администратор")
+            {
+                Console.WriteLine("Open admin window");
+                var adminWindow = new AdminWindow();
+                adminWindow.Show();
+            }
+            else if (user.Role == "Преподаватель")
+            {
+                Console.WriteLine("Open tutor window");
+                var tutorWindow = new TutorWindow();
+                tutorWindow.Show();
+            }
+            else
+            {
+                ErrorMessage = "Invalid credentials";
+            }
         }
         catch (Exception ex)
         {
