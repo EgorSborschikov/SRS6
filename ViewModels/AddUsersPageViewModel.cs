@@ -1,8 +1,10 @@
-using System;
-using System.Collections.Generic;
 using SRS6.Services;
 
 namespace SRS6.ViewModels;
+
+/// <summary>
+/// Модель представления страницы добавления пользователя
+/// </summary>
 
 public class AddUsersPageViewModel
 {

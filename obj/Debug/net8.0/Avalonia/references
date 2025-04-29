@@ -200,3 +200,5 @@
 /home/egor/.nuget/packages/microsoft.netcore.app.ref/8.0.14/ref/net8.0/System.Xml.XPath.XDocument.dll
 /home/egor/.nuget/packages/tmds.dbus.protocol/0.15.0/lib/net6.0/Tmds.DBus.Protocol.dll
 /home/egor/.nuget/packages/microsoft.netcore.app.ref/8.0.14/ref/net8.0/WindowsBase.dll
+/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/UnitTests/bin/Debug/net8.0/xunit.assert.dll
+/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/UnitTests/bin/Debug/net8.0/xunit.core.dll

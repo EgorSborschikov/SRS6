@@ -74,4 +74,10 @@ public class DatabaseService
     {
         return _connection.Query<User>("SELECT * FROM Users");
     }
+    
+    public void ClearUsers()
+    {
+        using var cmd = new SQLiteCommand("DELETE FROM Users", _connection);
+        cmd.ExecuteNonQuery();
+    }
 }

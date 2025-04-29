@@ -5,6 +5,10 @@ using SRS6.ViewModels;
 
 namespace SRS6.View.Pages.Login;
 
+/// <summary>
+/// Логика взаимодействия с LoginPage
+/// </summary>
+
 public partial class LoginPage : UserControl
 {
     public LoginPage()

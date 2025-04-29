@@ -5,6 +5,10 @@ using SRS6.ViewModels;
 
 namespace SRS6.View.Pages.AddUsers;
 
+/// <summary>
+/// Логика взаимодействия с AddUsersPage
+/// </summary>
+
 public partial class AddUsersPage : UserControl
 {
     public AddUsersPage()

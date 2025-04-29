@@ -1,9 +1,12 @@
-// GetUsersPageViewModel.cs
 using System.Collections.ObjectModel;
 using SRS6.Models;
 using SRS6.Services;
 
 namespace SRS6.ViewModels;
+
+/// <summary>
+/// Модель представления страницы получения списка пользователей
+/// </summary>
 
 public class GetUsersPageViewModel
 {

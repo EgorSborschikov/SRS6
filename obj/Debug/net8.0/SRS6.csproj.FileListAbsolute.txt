@@ -144,12 +144,12 @@
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/bin/Debug/net8.0/runtimes/win-x86/native/SQLite.Interop.dll
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/bin/Debug/net8.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/bin/Debug/net8.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/bin/Debug/net8.0/xunit.assert.dll
+/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/bin/Debug/net8.0/xunit.core.dll
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.csproj.AssemblyReference.cache
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/Avalonia/Resources.Inputs.cache
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/Avalonia/resources
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.GeneratedMSBuildEditorConfig.editorconfig
-/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.AssemblyInfoInputs.cache
-/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.AssemblyInfo.cs
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.csproj.CoreCompileInputs.cache
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.sourcelink.json
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/Avalonia/references
@@ -162,3 +162,4 @@
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.csproj.Up2Date
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/SRS6.genruntimeconfig.cache
 /home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/obj/Debug/net8.0/ref/SRS6.dll
+/home/egor/Documents/study/MDR-01-02_testing-programming_modules/SRS6/bin/Debug/net8.0/xunit.abstractions.dll

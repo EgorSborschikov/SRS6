@@ -5,6 +5,10 @@ using SRS6.ViewModels;
 
 namespace SRS6.View.Pages.Register;
 
+/// <summary>
+/// Логика взаимодействия с RegisterPage
+/// </summary>
+
 public partial class RegisterPage : UserControl
 {
     public RegisterPage()
