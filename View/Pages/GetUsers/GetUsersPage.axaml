@@ -9,7 +9,7 @@
              x:DataType="viewModels:GetUsersPageViewModel">
     <StackPanel>
         <TextBlock 
-            Text="Users List" 
+            Text="Список пользователей" 
             FontSize="20" 
             Margin="10"/>
 
